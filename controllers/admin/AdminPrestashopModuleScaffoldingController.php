@@ -1,5 +1,5 @@
 <?php
-include_once _PS_MODULE_DIR_ . 'bwlabmetagenerate/class/BwlabMetaGeneration.php';
+include_once _PS_MODULE_DIR_ . 'prestashopmodulescaffolding/class/PrestashopModuleScaffolding.php';
 class AdminBwlabMetaGenerateController extends ModuleAdminController
 {
     public function __construct()
