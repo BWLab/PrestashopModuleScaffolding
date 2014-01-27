@@ -1,6 +1,6 @@
 <?php
 include_once _PS_MODULE_DIR_ . 'prestashopmodulescaffolding/class/PrestashopModuleScaffolding.php';
-class AdminBwlabMetaGenerateController extends ModuleAdminController
+class AdminPrestashopModuleScaffoldingController extends ModuleAdminController
 {
     public function __construct()
     {
