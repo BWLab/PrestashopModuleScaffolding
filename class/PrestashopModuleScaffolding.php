@@ -11,7 +11,7 @@ class PrestashopModuleScaffolding extends ObjectModel
      * @see ObjectModel::$definition
      */
     public static $definition = array(
-        'table' => 'prestashop_module_scaffolding',
+        'table' => 'prestashopmodulescaffolding',
         'primary' => 'id',
         'fields' => array(
             'id' => array(

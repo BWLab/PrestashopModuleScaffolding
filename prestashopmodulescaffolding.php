@@ -5,7 +5,7 @@ if (!defined('_PS_VERSION_')) {
 }
 
 
-class PrestashopModuleScaffolding extends Module
+class PrestashopModuleScaffoldingMain extends Module
 {
 
     /* @var boolean error */
@@ -15,7 +15,7 @@ class PrestashopModuleScaffolding extends Module
     {
 
 
-        $this->name = 'prestashopmodulescaffolding';
+        $this->name = 'prestashop_module_scaffolding';
         $this->tab = 'others';
         $this->version = '1.0';
         $this->author = ' ... author';
@@ -105,8 +105,7 @@ class PrestashopModuleScaffolding extends Module
         return $tab->add();
     }
 
-    public
-    function getContent()
+    public function getContent()
     {
         Tools::redirectAdmin($this->context->link->getAdminLink('AdminPrestashopModuleScaffolding'));
     }
